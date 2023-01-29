@@ -13,7 +13,9 @@ interface HomePageFormSectionProps {
   dispatchChosenVIN: any;
 }
 
-const HomePageFormSection: FC<HomePageFormSectionProps> = ({ dispatchChosenVIN }) => {
+const HomePageFormSection: FC<HomePageFormSectionProps> = ({
+  dispatchChosenVIN,
+}) => {
   const [vincode, setVincode] = useState("");
   const dispatch = useDispatch();
 
@@ -58,7 +60,9 @@ const HomePageFormSection: FC<HomePageFormSectionProps> = ({ dispatchChosenVIN }
           onChange={handleWord}
           pattern={"^[a-zA-Z0-9]+$"}
         />
-        <span className="input-helper">only numbers and english letters available</span>
+        <span className="input-helper">
+          only numbers and english letters, 17 symbols
+        </span>
       </form>
       <button className="button" onClick={action}>
         ALL VARIABLES

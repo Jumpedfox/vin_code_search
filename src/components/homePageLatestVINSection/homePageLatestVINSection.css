@@ -28,6 +28,7 @@
   list-style: none;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .vin-list-placeholder {
@@ -36,6 +37,7 @@
 }
 
 .vin-list-item {
+  margin: 0 10px;
   cursor: pointer;
   font-size: 20px;
 }
