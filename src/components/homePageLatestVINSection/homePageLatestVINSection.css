@@ -1,0 +1,46 @@
+.latest-vin-wrapper {
+  margin: 20px 0;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(180, 180, 180, 1) 0%,
+    rgba(99, 99, 99, 1) 40%,
+    rgba(99, 99, 99, 1) 60%,
+    rgba(180, 180, 180, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px dashed rgb(180, 180, 180);
+  border-bottom: 1px dashed rgb(180, 180, 180);
+}
+
+.vin-list-name {
+  margin-top: 10px;
+  cursor: default;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.vin-list {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.vin-list-placeholder {
+  margin-bottom: 12px;
+  cursor: default;
+}
+
+.vin-list-item {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.vin-list-item:hover {
+  color: rgb(207, 207, 207);
+  text-decoration: underline;
+}

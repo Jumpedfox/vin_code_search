@@ -1,0 +1,23 @@
+.vin-wrapper {
+  padding: 0 10%;
+}
+
+.vin-result-message {
+  font-size: 14px;
+  display: block;
+  border-left: 1px solid black;
+  text-align: center;
+  padding: 0 20px;
+  cursor: default;
+}
+
+.vin-variables-list {
+  list-style: square;
+  padding: 0 10%;
+}
+
+.vin-variables-list-item {
+  margin-top: 4px;
+  cursor: default;
+  width: fit-content;
+}

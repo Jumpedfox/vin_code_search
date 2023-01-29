@@ -1,0 +1,27 @@
+.variables-page {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.variables-page-list {
+  width: fit-content;
+  list-style: square;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.variables-page-list-item {
+  width: fit-content;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.variables-page-list-item:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
